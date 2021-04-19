@@ -6,10 +6,10 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 const ManageOrders = () => {
     const [orders, setOrders]= useState();
 
-    fetch('https://mobilecare1.herokuapp.com/orders')
+    fetch('https://mobilecare1.herokuapp.com/manageOrder')
     .then(res => res.json())
     .then(data => setOrders(data));
-
+    console.log(orders);
     const DeleteOrder = id => {
         fetch(`https://mobilecare1.herokuapp.com/deleteOrder/${id}`, {
             method: 'DELETE',
