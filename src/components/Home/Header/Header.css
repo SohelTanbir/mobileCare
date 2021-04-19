@@ -1,0 +1,9 @@
+.header{
+    background-image: linear-gradient(to bottom, #c15cd3c2, rgb(173, 132, 240));
+}
+.logo{
+    width: 100%;
+}
+.logo img{
+    height:50px;
+}

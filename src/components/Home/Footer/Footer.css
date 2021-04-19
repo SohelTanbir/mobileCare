@@ -1,0 +1,42 @@
+.footer{
+    width: 100%;
+    padding: 40px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
+    url('../../../images/banner/banner.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.footer ul{
+    list-style:none;
+}
+.footer ul li a, .footer p{
+    text-decoration: none;
+    color: #a7a7a7;
+}
+.footer h4{
+    color: #a7a7a7;
+}
+.footer ul li a{
+    transition: .5s;
+}
+.footer ul li a:hover{
+    color:red;
+}
+.footer ul li{
+    margin-bottom:5px;
+}
+.social ul{
+    text-align: left;
+    margin-top: 15px;
+}
+.social ul li{
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.footer h4{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}

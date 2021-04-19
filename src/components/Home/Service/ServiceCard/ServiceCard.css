@@ -1,0 +1,11 @@
+.imageContainer img{
+   transition: .5s;
+}
+
+.imageContainer img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card{
+    overflow: hidden;
+}

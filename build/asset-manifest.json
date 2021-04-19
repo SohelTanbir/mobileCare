@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.910fb65d.chunk.css",
+    "main.js": "/static/js/main.2e16073f.chunk.js",
+    "main.js.map": "/static/js/main.2e16073f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0e3e83dc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0e3e83dc.js.map",
+    "static/js/2.34195c76.chunk.js": "/static/js/2.34195c76.chunk.js",
+    "static/js/2.34195c76.chunk.js.map": "/static/js/2.34195c76.chunk.js.map",
+    "static/js/3.416abbbb.chunk.js": "/static/js/3.416abbbb.chunk.js",
+    "static/js/3.416abbbb.chunk.js.map": "/static/js/3.416abbbb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.910fb65d.chunk.css.map": "/static/css/main.910fb65d.chunk.css.map",
+    "static/js/2.34195c76.chunk.js.LICENSE.txt": "/static/js/2.34195c76.chunk.js.LICENSE.txt",
+    "static/media/Footer.css": "/static/media/banner.078b203c.jpg",
+    "static/media/logo.444c1e90.png": "/static/media/logo.444c1e90.png",
+    "static/media/RecentWork.css": "/static/media/recetwork-bg.bd7949ad.jpg",
+    "static/media/testimonial-1.ea07c17d.jpg": "/static/media/testimonial-1.ea07c17d.jpg",
+    "static/media/testimonial-2.54262317.jpg": "/static/media/testimonial-2.54262317.jpg",
+    "static/media/testimonial-3.8bbe6e1e.jpg": "/static/media/testimonial-3.8bbe6e1e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e3e83dc.js",
+    "static/js/2.34195c76.chunk.js",
+    "static/css/main.910fb65d.chunk.css",
+    "static/js/main.2e16073f.chunk.js"
+  ]
+}

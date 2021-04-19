@@ -1,0 +1,20 @@
+.serviceTitle{
+    padding:40px 0;
+    text-align: center;
+}
+.serviceTitle h3{
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom:4px;
+    color:#7a3cbd;;
+}
+.serviceTitle h3::after{
+    position: absolute;
+    content: "";
+    width:5%;
+    height:4px; 
+    top: 100%;
+    left:45%;
+    background:#b684eb;
+    display: block;
+}
