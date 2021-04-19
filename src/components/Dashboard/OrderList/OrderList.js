@@ -1,10 +1,17 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
+import { userContext } from '../../../App';
 import Sidebar from '../Sidebar/Sidebar';
 
 const OrderList = () => {
     const [orders, setOrders]= useState();
+    const [loggedInUser, setLoggedInUser] = useContext(userContext);
 
-    fetch('https://mobilecare1.herokuapp.com/orders')
+
+    fetch('https://mobilecare1.herokuapp.com/orders',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({email:loggedInUser.email})
+    })
     .then(res => res.json())
     .then(data => setOrders(data));
 
@@ -18,7 +25,7 @@ const OrderList = () => {
         
                     <div className="listInfo d-flex justify-content-between">
                         <h5 className="text-muted px-2 mb-4">Order List</h5>
-                        <h5 className="text-muted px-2 mb-4">{orders?.[0].name}</h5>
+                        <h5 className="text-muted px-2 mb-4">Admin</h5>
                     </div>
                     {orders?'':<div className="spinner text-center">
                         <div className="spinner-border text-primary text-center">

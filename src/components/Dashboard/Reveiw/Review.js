@@ -14,7 +14,7 @@ const Review = () => {
 
     const handleReview = e =>{
         
-        fetch('http://localhost:5000/review', {
+        fetch('https://mobilecare1.herokuapp.com/review', {
             method:'POST',
             headers:{'Content-Type':'application/json'},
             body:JSON.stringify(review)

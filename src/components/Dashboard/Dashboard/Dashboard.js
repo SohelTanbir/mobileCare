@@ -9,9 +9,21 @@ const Dashboard = () => {
                     <Sidebar/>
                 </div>
                 <div className="col-md-10 text-center bg-light">
-                    <div className="welcomeText text-center">
-                        <h2>Welcome to MobileCare <br/></h2>
-                        <h5>Online mobile repair center</h5>
+                    <div className="container mt-5">
+                        <div className="row text-white ms-auto">
+                            <div className="col-md-3 col-sm-12 bg-primary p-4">
+                                <h6>Total Service</h6>
+                                <h6>10</h6>
+                            </div>
+                            <div className="col-md-3 col-sm-12 bg-success ms-3 p-4">
+                                <h6>Total Orders</h6>
+                                <h6>15</h6>
+                            </div>
+                            <div className="col-md-3 col-sm-12 bg-warning ms-3 p-4">
+                            <h6>Total Review</h6>
+                                <h6>5</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@ import { faQuoteLeft, faQuoteRight, faStar } from '@fortawesome/free-solid-svg-i
 
 const Testimonial = () => {
     const [reviews, setReview] = useState();
-    fetch('http://localhost:5000/reviews')
+    fetch('https://mobilecare1.herokuapp.com/reviews')
         .then(res => res.json())
         .then(data => setReview(data));
 
