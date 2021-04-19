@@ -19,6 +19,6 @@ Author:SohelRana
 11.add service
 12.Make admin
 13.dashboard access limitation according to loggedIn User.
-14.many more
+14.loading Spinner.
 #description:
 This is a online booking mobile repair application.any one can booked any service from this application.
